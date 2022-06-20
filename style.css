@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth; 
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background: radial-gradient(at 0% 30%, #F4B1B1 , #F3D2D2, #FADBD8);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 5px 0 5px;
+  z-index: 10;
+  background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    );
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin:5px 5px 5px 5px;
+}
+
+.nav-item {
+  margin: 0 30px 0 30px;
+}
+
+.nav-item:hover {
+  transition: 0.6s;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.nav-link {
+  padding: 0 10px 0 10px;
+}
+
+.section {
+  margin: 160px 240px 160px 240px;
+  padding: 120px 120px 120px 120px;
+  background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    );
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+}
+
+.photo {
+  position: absolute;
+  right: 120px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  background-image: url("assets/img/photo.jpg");
+}
+
+.name-title {
+  margin: 0 152px 0 0;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  border-bottom: 1px solid;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.section-line {
+  position: absolute;
+  left: 0;
+  width: 115px;
+  height: 38px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)70%
+    );
+}
+
+.skill-list {
+  margin: 28px 0 28px 0;
+}
+
+.code-example {
+  margin: 28px 0 28px 0;
+  padding: 24px;
+  height: 100px;
+  background-color: #f2f1f1;
+  font-variant: small-caps;
+}
+
+.contact-list ::marker {
+  font-size: 2.5em;
+}
+
+.contact-email{
+  list-style-image: url("assets/svg/gmail.svg");
+}
+
+.contact-tg{
+  list-style-image: url("assets/svg/tg.svg");
+}
+
+.contact-discord{
+  list-style-image: url("assets/svg/discord.svg");
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0 1px;
+}
+
+a:any-link {
+  color: #00005B;
+}
+
+a:hover {
+  transition: 0.4s;
+  color: #0025ED;
+}
+
+a:active {
+  color: #0025ED;
+}
+
+.footer {
+  margin: 0 240px 0 240px;
+  padding: 0 120px 0 120px;
+  background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+    );
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.rslogo {
+  position: absolute;
+  right: 120px;
+  opacity: 80%;
+}
+
+
+.rslogo:hover {
+  transition: 0.6s;
+  opacity: 100%;
+}
+
+.gitlogo {
+  opacity : 80%;
+}
+
+.gitlogo:hover {
+  transition: 0.6s;
+  opacity:100%;
+}
